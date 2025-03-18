@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section class="index">
+        <div class="titulo">
+            <h2>Que personagem você é dos:</h2>
+        </div>
+        <div class="z-buttons">
+            <div class="z-fithers">
+                {% include 'card-z-fither.html' %}
+            </div>
+            <div class="fithers">
+                {% include 'card-fither.html' %}
+            </div>
+        </div>
+    </section>
+{% endblock %}
+

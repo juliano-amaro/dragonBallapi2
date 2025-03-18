@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px dashed red; */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+header a {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-right: 1050px;
+}
+
+header a img{
+    width: 35px;
+}
+
+
+main {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: hsl(0, 0%, 37%);
+    color: white;
+}
+
+main a {
+    color: white;
+}
+
+.index {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    height: 10%;
+    padding: 20px;
+}
+
+.z-buttons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.z-fithers {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fithers {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+footer a {
+    color: rgb(0, 149, 255);
+}
+/* button cards */
+
+.card-button {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-button:hover {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+figure {
+    height: 80%;
+    margin: 16px;
+    border-radius: 20px;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.descricao h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Páginas de perguntas */
+
+.pergunta {
+    margin: 2% 0;
+}
+
+.btn {
+    margin-bottom: 1%;
+    background-color: orange;
+    border: none;
+    height: 3em;
+    width: 10em;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ff5e00;
+}
+
+.container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-resposta {
+    width: 200px;
+    height: 350px;
+}
+
+.img-resposta img {
+    width: 100%;
+    height: 100%;
+}

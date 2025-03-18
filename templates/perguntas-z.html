@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="respostas">
+    <div class="titulo">
+        <h2>Qual personagem você é dos saiyajins:</h2>
+    </div>
+    <form action="/respostas-z" method="post">
+        <div class="pergunta">
+            <p>1. Qual sua característica principal?</p>
+            <input type="radio" name="q1" value="2" required> Coragem <br>
+            <input type="radio" name="q1" value="4"> Determinação <br>
+            <input type="radio" name="q1" value="6"> Inteligência <br>
+            <input type="radio" name="q1" value="8"> Maldade <br>
+        </div>
+        <div class="pergunta">
+            <p>2. O que você prefere fazer no tempo livre?</p>
+            <input type="radio" name="q2" value="2" required> Treinar <br>
+            <input type="radio" name="q2" value="4"> Meditar <br>
+            <input type="radio" name="q2" value="6"> Estudar <br>
+            <input type="radio" name="q2" value="8"> Criar planos <br>
+        </div>
+        <div class="pergunta">
+            <p>3. Qual sua maior fraqueza?</p>
+            <input type="radio" name="q3" value="2" required> Ingenuidade <br>
+            <input type="radio" name="q3" value="4"> Arrogância <br>
+            <input type="radio" name="q3" value="6"> Falta de confiança <br>
+            <input type="radio" name="q3" value="8"> Egoísmo <br>
+        </div>
+        <div class="pergunta">
+            <p>4. Como você lida com desafios?</p>
+            <input type="radio" name="q4" value="2" required> Com entusiasmo <br>
+            <input type="radio" name="q4" value="4"> Com seriedade <br>
+            <input type="radio" name="q4" value="6"> Com estratégia <br>
+            <input type="radio" name="q4" value="8"> Com brutalidade <br>
+        </div>
+        <div class="pergunta">
+            <p>5. Qual dessas cores você prefere?</p>
+            <input type="radio" name="q5" value="2" required> Laranja <br>
+            <input type="radio" name="q5" value="4"> Azul <br>
+            <input type="radio" name="q5" value="6"> Roxo <br>
+            <input type="radio" name="q5" value="8"> Dourado <br>
+        </div>
+        <button class="btn" type="submit">Ver Resultado</button>
+    </form>
+</div>
+
+
+{% endblock %}
